@@ -1,8 +1,38 @@
 .navbar-nav{
-    text-align: center;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
-.navbar-nav{
-    background-color: aqua;
+.navbar{
+    background-color: aliceblue;
+}
+#sec-first{
+   background-image: url("images/bck_img.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+
+#intro{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.hire-btn{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: black;
+    margin-top: 50px;
+}
+#sec-two{
+    margin-top: 50px;
 }
