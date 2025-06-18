@@ -140,7 +140,7 @@
 
 .certificate-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 25px;
 }
@@ -150,14 +150,14 @@
   align-items: center;
   background-color: white;
   padding: 20px;
-  width: 60%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   border-radius: 10px;
 }
 
 .certificate-image{
   height: 60%;
-  width: 90%;
+  width: 60%;
 }
 
 
