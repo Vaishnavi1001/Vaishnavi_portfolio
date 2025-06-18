@@ -37,57 +37,22 @@
     margin-top: 50px;
 }
 .sec-third {
-  padding: 60px 20px;
+  padding: 60px 60px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: bold;
-  color: #333;
-  letter-spacing: 3px;
-}
-
-.subtitle {
-  margin-top: 10px;
-  font-size: 18px;
-  color: #666;
-}
-
-.skills-container {
+.skills-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
-  gap: 40px;
 }
 
-.skill {
-  text-align: center;
+.skills-name {
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color:  rgb(229, 142, 242);
+
 }
 
-.circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: conic-gradient(
-    #3498db calc(var(--percent) * 1%),
-    #eee 0
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: #555;
-  margin: 0 auto 15px;
-  position: relative;
-}
-
-.circle::before {
-  content: "";
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  background: #fff;
-  border-radius: 50%;
+.skills-name:hover {
+  background-color: rgb(196, 144, 224);
 }
