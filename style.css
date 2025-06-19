@@ -60,7 +60,7 @@
 
 .sec-third {
   padding: 60px 60px;
-
+  margin-bottom: 40px;
 }
 
 .skills-content {
@@ -89,7 +89,7 @@
 
 .sec-fourth h2 {
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .education-cards {
@@ -121,8 +121,8 @@
 }
 
 .sec-fifth h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
+  font-size: 40px;
+  margin-bottom: 80px;
 }
 
 .work-cards {
@@ -141,7 +141,7 @@
   text-align: center;
 }
 .sec-sixth{
-  padding: 40px;
+  padding: 30px;
   background-color: #f9f9f9;
   text-align: center;
 }
@@ -150,7 +150,7 @@
   color: black;
 }
 .carousel-item{
-  padding: 50px 100px 100px 100px;
+  padding: 50px 20px 100px 20px;
 }
 
 .sec-seventh  {
@@ -167,7 +167,7 @@
   padding:50px 150px;
 }
 .sec-eight{
-  padding: 40px;
+  padding: 40px 210px;
   background-color: #f9f9f9;
   text-align: center;
 }
@@ -202,6 +202,7 @@
 .contact-info h2 {
   color: black;
   margin-bottom: 20px;
+  margin-right: 100px;
 }
 
 .info-item {
@@ -216,19 +217,28 @@
   font-size: 18px;
   color: rgb(110,87,224);
 }
-/* 
+.info-item a{
+  list-style: none;
+  text-decoration: none;
+  color:black;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
 .contact-image img {
   margin-top: 30px;
+  margin-right: 1000px;
   width: 100%;
   max-width: 250px;
   border-radius: 10px;
-  justify-items:flex-start;
-} */
+  
+}
 
 .contact-form {
   flex: 1;
   min-width: 280px;
-  padding: 20px;
+  padding: 30px;
 }
 
 form {
@@ -239,7 +249,7 @@ form {
 .form-row {
   display: flex;
   gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 form input,
@@ -247,7 +257,7 @@ form textarea {
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 14px;
   width: 100%;
   outline: none;
@@ -265,15 +275,10 @@ form button {
 }
 
 form button:hover {
-  background-color: rgb(90,67,204);
+  background-color: rgb(143, 122, 247);
+  color: black;
 }
 
-.icon i {
-  color: rgb(110,87,224);
-  font-size: 18px;
-  margin-right: 10px;
-  width: 20px;
-}
 
 footer{
    background-color: rgb(52, 52, 52);
