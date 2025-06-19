@@ -149,8 +149,9 @@
  font-size: 40px;
   margin-bottom: 30px;
 }
-.row a{
-  padding-bottom: 2px;
+.contact a{
+  padding-right: 10px;
   list-style: none;
-  
+  text-decoration: none;
+  color: white;
 }
