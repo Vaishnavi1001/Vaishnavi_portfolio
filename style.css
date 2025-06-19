@@ -149,6 +149,9 @@
 .carousel-caption h5, p{
   color: black;
 }
+.carousel-item{
+  padding: 50px 100px 100px 100px;
+}
 
 .sec-seventh  {
   padding: 40px;
