@@ -140,10 +140,18 @@
   width: 350px;
   text-align: center;
 }
+.sec-sixth{
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.carousel-caption h5, p{
+  color: black;
+}
 
 .sec-seventh  {
   padding: 40px;
-  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -151,15 +159,17 @@
   font-size: 40px;
   margin-bottom: 30px;
 }
-.carousel-item{
-  padding: 50px;
+
+.carousel-item img{
+  padding:50px 150px;
 }
 .sec-eight{
   padding: 40px;
-  background-color: white;
+  background-color: #f9f9f9;
   text-align: center;
 }
 .sec-eight h2{
+  
  font-size: 40px;
   margin-bottom: 30px;
 }
