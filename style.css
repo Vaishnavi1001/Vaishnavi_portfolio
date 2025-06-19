@@ -36,9 +36,28 @@
 
 
 #sec-two{
-    padding: 50px;
+    padding: 20px;
       background-color:#f9f9f9;
 }
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-info-title {
+  color: #713abe;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+.about-info-title,
+.about-info-name {
+  display: block;
+  padding-right: 190px;
+
+}
+
 .sec-third {
   padding: 60px 60px;
 
@@ -53,12 +72,14 @@
   padding: 10px;
   margin-right: 20px;
   border-radius: 5px;
-  background-color:  rgb(229, 142, 242);
+  color:white;
+  background-color:  rgb(108, 108, 108);
 
 }
 
 .skills-name:hover {
-  background-color: rgb(196, 144, 224);
+  background-color: rgb(178, 178, 178);
+  color:black;
 }
 .sec-fourth {
   padding: 40px;
@@ -135,7 +156,7 @@
 }
 .sec-eight{
   padding: 40px;
-  background-color: rgb(152, 129, 152);
+  background-color: white;
   text-align: center;
 }
 .sec-eight h2{
@@ -146,5 +167,40 @@
   padding-right: 10px;
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: black;
+  
 }
+footer{
+   background-color: rgb(52, 52, 52);
+   padding: 50px 200px;
+}
+footer h2{
+  color: white;
+  padding-top: 5px;
+}
+
+ .footer-links {
+    list-style: none;
+    display: flex;
+  justify-content: center; 
+  gap: 100px; 
+  padding-top: 10px;
+  }
+  .footer-links a{
+    text-decoration: none;
+    color:white;
+    
+  }
+  .social-icons {
+    justify-self: flex-end;
+    
+  }
+   .social-icons a img{
+   padding-top: 10px;
+   }
+   .footer-copy{
+    justify-self: center;
+    color: rgb(171, 167, 167);
+    padding-top: 20px;
+
+   }
