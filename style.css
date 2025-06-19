@@ -23,16 +23,18 @@
 
 #intro{
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.hire-btn{
-    background-color: transparent;
-    padding: 10px 20px;
-    border: 2px solid black;
-    color: black;
-    margin-top: 50px;
+.button {
+  color: black;
+  padding: 10px 30px;
+  border: 2px solid black;
+  text-decoration: none;
 }
+
+
+
 #sec-two{
     padding: 50px;
       background-color:#f9f9f9;
