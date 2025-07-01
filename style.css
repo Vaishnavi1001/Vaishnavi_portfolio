@@ -6,6 +6,9 @@
 .navbar{
     background-color: rgb(234, 241, 243);
 }
+a.nav-link.d-flex:hover{
+  color:#713abe ;
+}
 #sec-first{
    background-image: url("images/bck_img.jpg"); 
     background-size: cover;
