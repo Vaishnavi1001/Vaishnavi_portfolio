@@ -1,3 +1,4 @@
+/* navigation css start here */
 .navbar-nav{
     justify-content: space-around;
     align-items: center;
@@ -7,6 +8,10 @@
 a.nav-link.d-flex:hover{
   color:#713abe ;
 }
+/* navigation css start here */
+
+
+/* home page css start here */
 #sec-first{
    background-image: url("images/bck_img.jpg"); 
     background-size: cover;
@@ -21,7 +26,6 @@ a.nav-link.d-flex:hover{
     z-index: 1;
 }
 
-
 #intro{
     margin-top: 100px;
     margin-bottom: 30px;
@@ -34,7 +38,11 @@ a.nav-link.d-flex:hover{
   text-decoration: none;
 }
 
+/* home page css end here */
 
+
+
+/* about page css start here */
 
 #sec-two{
     padding: 20px;
@@ -59,6 +67,13 @@ a.nav-link.d-flex:hover{
 
 }
 
+
+/* about page css end here */
+
+
+
+/* skills page css start here */
+
 .sec-third {
   padding: 60px 60px;
   margin-bottom: 40px;
@@ -82,6 +97,14 @@ a.nav-link.d-flex:hover{
   background-color: #713abe;
   color:white;
 }
+
+/* skills page css end here */
+
+
+
+
+/* education page css start here */
+
 .sec-fourth {
   padding: 40px;
   background-color: #f9f9f9;
@@ -115,6 +138,12 @@ a.nav-link.d-flex:hover{
   margin-bottom: 10px;
 }
 
+/* education page css ene here */
+
+
+
+/* work page css start here */
+
 .sec-fifth {
   padding: 40px;
   background-color: #fff;
@@ -141,6 +170,15 @@ a.nav-link.d-flex:hover{
   width: 350px;
   text-align: center;
 }
+
+
+/* work page css end here */
+
+
+
+
+/* project page css start here */
+
 .sec-sixth{
   padding: 30px;
   background-color: #f9f9f9;
@@ -153,6 +191,14 @@ a.nav-link.d-flex:hover{
 .carousel-item{
   padding: 50px 20px 100px 20px;
 }
+
+
+/* project page css end here */
+
+
+
+
+/* certifcate page css start here */
 
 .sec-seventh  {
   padding: 40px;
@@ -167,6 +213,15 @@ a.nav-link.d-flex:hover{
 .carousel-item img{
   padding:50px 150px;
 }
+
+
+/* certifcate page css end here */
+
+
+
+
+/* contact page css start here */
+
 .sec-eight{
   padding: 40px 210px;
   background-color: #f9f9f9;
@@ -281,6 +336,13 @@ form button:hover {
 }
 
 
+/* contact page css end here */
+
+
+
+
+/* footer css start here */
+
 footer{
    background-color: rgb(52, 52, 52);
    padding: 50px 110px 50px 130px;
@@ -317,3 +379,6 @@ footer h2{
     padding-top: 20px;
 
    }
+
+
+   /* footer css end here */
